@@ -1,13 +1,13 @@
 import style from "../css/Home.module.css"
-
-const home = () => {
+import Calculator from "../components/Calculator"
+const Home = () => {
     return (
-        <div className= {home}>
+        <div className= {Home}>
             <div className={ style.wrapper}>
-                <h1>The calculator will be here</h1>
+                <Calculator />
             </div>
         </div>
     );
 }
  
-export default home;
+export default Home;
