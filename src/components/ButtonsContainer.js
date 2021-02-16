@@ -1,6 +1,8 @@
+import { Buttons } from "../css/ButtonsContainer.modules.css"
+
 const ButtonsContainer = () => {
     return (
-        <div className={buttons}>
+        <div className={Buttons}>
             <p>here is buttons</p>
         </div>
     );
